@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_title"
+        android:gravity="center"
+        android:textColor="#fdfcc5"
+        android:textSize="20sp"
+        android:text="@string/share_dialog_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/share_dialog_padding"
+        android:paddingRight="@dimen/share_dialog_padding"
+        android:paddingTop="8dp" >
+
+        <EditText
+            android:id="@+id/comment_dialog_content"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/comment_content_height"
+            android:background="@drawable/aa_share_bg"
+            android:gravity="left|top"
+            android:hint="@string/detail_dialog_hint"
+            android:textColor="#b93f06"
+            android:textColorHint="@color/normal_text_color_gray"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/aa_share_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/normal_padding"
+            android:paddingTop="@dimen/normal_padding"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/share_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_margin"
+                android:text="@string/share_to"
+                android:textColor="#999999"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1" >
+            </View>
+
+            <CheckBox
+                android:id="@+id/comment_dialog_sync_sina"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="@dimen/xsmall_margin"
+                android:layout_marginRight="@dimen/xsmall_margin"
+                android:background="@drawable/aa_share_icon_sina"
+                android:button="@null"
+                android:textColor="@color/normal_text_color_black" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1" >
+            </View>
+
+            <CheckBox
+                android:id="@+id/comment_dialog_sync_qzone"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="@dimen/xsmall_margin"
+                android:layout_marginRight="@dimen/xsmall_margin"
+                android:background="@drawable/aa_share_icon_qzone"
+                android:button="@null"
+                android:textColor="@color/normal_text_color_black" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1" >
+            </View>
+
+            <CheckBox
+                android:id="@+id/comment_dialog_sync_tqq"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="@dimen/xsmall_margin"
+                android:layout_marginRight="@dimen/xsmall_margin"
+                android:background="@drawable/aa_share_icon_tqq"
+                android:button="@null"
+                android:textColor="@color/normal_text_color_black" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1" >
+            </View>
+
+            <CheckBox
+                android:id="@+id/comment_dialog_sync_renren"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="@dimen/xsmall_margin"
+                android:layout_marginRight="@dimen/xsmall_margin"
+                android:background="@drawable/aa_share_icon_renren"
+                android:button="@null"
+                android:textColor="@color/normal_text_color_black" />
+        </LinearLayout>
+    
+        <TextView
+            android:id="@+id/description"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:gravity="center" />
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button 
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share"
+                android:textSize="16sp"
+                android:textColor="#fdfcc5"
+                android:background="@drawable/share_dialog_share" />
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textSize="16sp"
+                android:textColor="#fdfcc5"
+                android:text="@string/cancel"
+                android:background="@drawable/share_dialog_cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

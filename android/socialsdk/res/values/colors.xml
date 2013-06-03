@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- common colors -->
+    <color name="green">#66aa00</color>
+    <color name="black">#333333</color>
+    <color name="grey">#ababab</color>
+    <color name="orange">#c66a46</color>
+    <color name="ade_green">#e5eadd</color>
+    <color name="ade_dark_green">#739f32</color>
+    <color name="ade_grey">#d5d5d5</color>
+    <color name="white">#f7f7f7</color>
+    <color name="pure_white">#ffffff</color>
+    <color name="blue">#0000FF</color>
+    <color name="holo_blue">#ff33b5e5</color>
+    <color name="sixty_transparent">#66e5eadd</color>
+    <color name="action_pressed">#d8e3c5</color>
+    <color name="disabled">#FFB3B3B3</color>
+    <color name="fifty_percent_white">#99ffffff</color>
+    <color name="darker_grey">#616161</color>
+    <color name="black_grey">#727272</color>
+    <color name="light_grey">#ebebeb</color>
+    
+    
+    <color name="normal_text_color_black">#FF333333</color>
+    <color name="normal_text_color_gray">#FF949494</color>
+    <color name="normal_text_color_light_gray">#FFcacaca</color>
+</resources>
